@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#result {
+    background-color: black;
+    height: 10vh;
+    color: white;
+    font-size: 5rem;
+    text-align: right;
+    opacity: 0.7;
+}
+
+.operatoren {
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+}
+
+.operatoren button {
+    background-color: #113f67;
+    min-width: 25vw;
+    border: 1px solid black;
+    color: white;
+    font-size: 3rem;
+}
+
+.numbers {
+    background-color: #dbd8e3;
+    display: flex;
+    flex-wrap: wrap;
+    height: 70vh;
+}
+
+.numbers button {
+    min-width: 25vw;
+    max-height: 17.5vw;
+    border: 1px solid black;
+    font-size: 3rem;
+}
+
+.number {
+    background-color: #a2a8d3;
+    color: white;
+}
+
+#getResult, #c {
+    background-color: #083358;
+    color: white;
+}
