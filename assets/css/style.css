@@ -21,26 +21,33 @@
     justify-content: center;
 }
 
-.operatoren button {
+.operatoren div {
     background-color: #113f67;
     min-width: 25vw;
     border: 1px solid black;
     color: white;
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 
 .numbers {
     background-color: #dbd8e3;
-    display: flex;
     flex-wrap: wrap;
     height: 70vh;
+    display: flex;
 }
 
-.numbers button {
+.numbers div {
     min-width: 25vw;
-    max-height: 17.5vw;
+    max-height: 17.5vh;
     border: 1px solid black;
     font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .number {
