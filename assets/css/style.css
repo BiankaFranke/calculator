@@ -1,3 +1,5 @@
+/* General */
+
 * {
     margin: 0;
     padding: 0;
@@ -5,15 +7,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-#result {
-    background-color: black;
-    height: 10vh;
-    color: white;
-    font-size: 5rem;
-    text-align: right;
-    opacity: 0.7;
-}
+/* Styling Class */
 
 .operatoren {
     height: 20vh;
@@ -32,7 +26,6 @@
     align-items: center;
 }
 
-
 .numbers {
     background-color: #dbd8e3;
     flex-wrap: wrap;
@@ -48,11 +41,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.number {
     background-color: #a2a8d3;
     color: white;
+}
+
+/* Styling IDs */
+
+#result {
+    background-color: black;
+    height: 7vh;
+    color: white;
+    font-size: 3.5rem;
+    text-align: right;
+    opacity: 0.7;
+}
+
+#history {
+    background-color: black;
+    color: grey;
+    opacity: 0.7;
+    height: 3vh;
+    text-align: right;
 }
 
 #getResult, #c {
